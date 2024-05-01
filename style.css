@@ -1,0 +1,128 @@
+body{
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(images/coffee.jpg);
+}
+h1{
+    color: blue;
+    font-family:sans-serif serif;
+    text-shadow: 2px 3p 5px;
+    background-image: url(images/chocolate-pizza-index-658367a29a902.jpg);
+}
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+header nav{
+    display: block;
+    float: top;
+    overflow: hidden;
+}
+.navbar ul{
+    text-decoration: none;
+    overflow: hidden;
+}
+.navbar a{
+    display: inline-block;
+}
+.navbar a:hover{
+    background-color: white;
+}
+h3{
+ color: green;
+}
+footer{animation-name: colorchange;
+    animation-duration: 29s;}
+.navbar li{
+    float: left;
+    color:brown;
+    text-decoration: none;
+    overflow: hidden;
+}
+header{
+    background-color: white;
+    background-size: 400px;
+
+}
+
+p{
+    
+    font-style:italic; 
+    background-repeat :no-repeat;
+    background-attachment : fixed;
+    color: red;
+    font-weight:bold;
+    font-size: larger;
+    border-style: dotted;
+    border-width: 75px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    animation-name: slideleft;
+    display: inline-block;
+    animation-duration: 5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes slideleft{
+    from{transform:translateX(100px);}
+}
+h2{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: grey;
+    background-size: 200px;
+}
+#ul1{
+    float: left;
+    overflow: hidden;
+    height: 75px
+}
+#ul1 li{
+    color: red;
+    text-decoration: chocolate;
+    text-align:justify
+}
+h1{
+animation-name: colorchange;
+animation-duration: 29s;
+}
+@keyframes colorchange{
+0%{color: green;}
+10%{color: brown;}
+20%{color: aqua;}
+30%{color: red;}
+40%{color: blue;}
+50%{color: maroon;}
+60%{color: khaki;}
+70%{color: darkorange;}
+80%{color: indigo;}
+90%{color: lawngreen;}
+100%{color: purple;}
+}
+img{
+    position: relative;
+    left: 40px;
+}
+button:hover{
+    color: brown;
+    font-size: 1.1em;
+}
+button:active{
+    color: brown;
+    font-size: 1.1em;
+}
+.dropdown button{
+    background-color: grey;
+    color: blue;
+}
+.navbar nav{
+    background-color: blue;
+}
+.navbar a{
+    color: blue;
+    padding: 15px;
+    display: inline-block;
+    text-align: left;
+}

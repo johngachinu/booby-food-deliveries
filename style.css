@@ -77,12 +77,12 @@ h2{
 #ul1{
     float: left;
     overflow: hidden;
-    height: 75px
+    height: 150px
 }
 #ul1 li{
     color: red;
     text-decoration: chocolate;
-    text-align:justify
+    text-align:rights
 }
 h1{
 animation-name: colorchange;

@@ -56,6 +56,22 @@
    // if (submit.checked) {
       //  subResult.textConten = `confirmed!`;
    // }
+let signup = true
+let username;
+let password;
+
+do{
+    username =(`Enter your username`);
+    password = (`Enter your password`);
+
+    if(username === "myUsername"&&password==="mypassword"){
+        loggedIn=true;
+        console.log("You are logged in!");
+    }
+    else{
+        console.log("Invalid credentials! Please try again");
+    }
+}while(!signup)
 
 
 
